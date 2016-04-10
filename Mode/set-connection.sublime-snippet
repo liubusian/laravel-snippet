@@ -5,7 +5,7 @@
  *
  * @var string
  */
-protected \$connection = ${1};
+protected \$connection = "${1}";
 ]]></content>
 	<tabTrigger>Model-Set-connection</tabTrigger>
 	<scope>source.php</scope>

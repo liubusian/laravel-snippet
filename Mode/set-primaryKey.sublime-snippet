@@ -5,7 +5,7 @@
  *
  * @var string
  */
-protected \$primaryKey = ${1};  
+protected \$primaryKey = "${1}";  
 ]]></content>
 	<tabTrigger>Model-Set-primaryKey</tabTrigger>
 	<scope>source.php</scope>
