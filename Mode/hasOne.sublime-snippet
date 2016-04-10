@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * This model has one ${1}
+ * has a one to one relationship.
+ * @return \Illuminate\Database\Eloquent\Relations\HasOne
+ */
+public function ${1}()
+{
+    return \$this->hasOne("App\Model\\\\".ucfirst('${1}'));
+}   
+]]></content>
+    <tabTrigger>Model-hasOne</tabTrigger>
+    <scope>source.php</scope>
+    <description>Model->hasOne[default].</description>
+</snippet>

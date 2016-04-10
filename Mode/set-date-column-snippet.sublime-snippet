@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * The attributes that should be mutated to dates.
+ *
+ * @var array
+ */
+protected \$dates = [${1}];
+
+/**
+ * The storage format of the model's date columns.
+ *
+ * @var string
+ */
+protected $dateFormat = '${2}';
+]]></content>
+	<tabTrigger>Model-Set-date-column</tabTrigger>
+	<scope>source.php</scope>
+	<description>Model Set date column.</description>
+</snippet>

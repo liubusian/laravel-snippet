@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * The connection name for the model.
+ *
+ * @var string
+ */
+protected \$connection = ${1};
+]]></content>
+	<tabTrigger>Model-Set-connection</tabTrigger>
+	<scope>source.php</scope>
+	<description>Model Set connection.</description>
+</snippet>

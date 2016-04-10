@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * This model has many ${1}
+ * has a one to many relationship.
+ * @return \Illuminate\Database\Eloquent\Relations\HasManyThrough
+ */
+public function ${1}(){
+	return \$this->hasManyThrough("App\Model\\\\".ucfirst('${2}'), "App\Model\\\\".ucfirst('${3}'), '${4}', '${5}', '${6}');
+}   
+]]></content>
+    <tabTrigger>Model-hasManyThrough-key</tabTrigger>
+    <scope>source.php</scope>
+    <description>Model->hasManyThrough[set key].</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * The attributes that should be visible in arrays.
+ *
+ * @var array
+ */
+protected \$visible = [
+    ${1}
+];
+]]></content>
+	<tabTrigger>Model-Set-visible</tabTrigger>
+	<scope>source.php</scope>
+	<description>Model Set visible.</description>
+</snippet>

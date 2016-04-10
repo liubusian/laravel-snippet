@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * The primary key for the model.
+ *
+ * @var string
+ */
+protected \$primaryKey = ${1};  
+]]></content>
+	<tabTrigger>Model-Set-primaryKey</tabTrigger>
+	<scope>source.php</scope>
+	<description>Model Set primaryKey.</description>
+</snippet>

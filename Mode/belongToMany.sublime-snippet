@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Get the ${1} associated with this given
+ * ${1} has the inverse of the relationship with this
+ * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+ */
+public function ${1}()
+{
+    return \$this->belongsToMany("App\Model\\\\".ucfirst('${1}'));
+}   
+]]></content>
+    <tabTrigger>Model-belongToMany</tabTrigger>
+    <scope>source.php</scope>
+    <description>Model->belongsToMany[default].</description>
+</snippet>

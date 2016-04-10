@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * The table associated with the model.
+ *
+ * @var string
+ */
+protected \$table = ${1};
+]]></content>
+	<tabTrigger>Model-Set-table</tabTrigger>
+	<scope>source.php</scope>
+	<description>Model Set table name.</description>
+</snippet>

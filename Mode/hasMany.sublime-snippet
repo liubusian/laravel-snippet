@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * This model has many ${1}
+ * has a one to many relationship.
+ * @return \Illuminate\Database\Eloquent\Relations\HasMany
+ */
+public function ${1}()
+{
+    return \$this->hasMany("App\Model\\\\".ucfirst('${1}'));
+}   
+]]></content>
+    <tabTrigger>Model-hasMany</tabTrigger>
+    <scope>source.php</scope>
+    <description>Model->hasMany[default].</description>
+</snippet>
